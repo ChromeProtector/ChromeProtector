@@ -4,7 +4,7 @@ An extension for Chrome that aims to protect (as much as possible) against typos
 
 # Roadmap/Plan
 
-1. Implement a simple detection of "unexpected" unicode codepoints in the domain name (warning or blocking)
+1. Implement a simple detection of homograph phishing attack
 2. Implement a simple list of blocked words from domain names
 3. Implement words similary checks agains list of protected domains (configured)
 4. Configuration data of the extension should be easy to export to compute some hash to validate configuration
