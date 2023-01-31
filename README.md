@@ -5,7 +5,10 @@ An extension for Chrome that aims to protect (as much as possible) against typos
 # Roadmap/Plan
 
 1. Implement a simple detection of homograph phishing attack
-2. Implement the similary check against the list of protected domains (configured)
+2. Implement the similary checks against the list of protected domains (configured):
+   - Levenshtein distance
+   - other algorithms
+   
 3. Implement a simple list of blocked words from domain names
 4. Configuration data of the extension should be easy to export to compute some hash to validate configuration
 5. Consider showing more info about SSL/TLS certificates
