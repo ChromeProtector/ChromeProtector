@@ -5,7 +5,7 @@ An extension for Chrome that aims to protect (as much as possible) against typos
 # Roadmap/Plan
 
 1. Implement a simple detection of homograph phishing attack
-2. Implement a simple detection of non 7-bit ASCII characters
+2. Implement a simple detection of non 7-bit ASCII characters in URL
 3. Implement the similary checks against the list of protected domains (configured):
    - Levenshtein distance
    - other algorithms
