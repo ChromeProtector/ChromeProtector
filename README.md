@@ -1,19 +1,20 @@
 # ChromeProtector (in development)
-An extension for Chrome that aims to warn (as much as possible) about the typosquatting attack
+An extension for Chrome that aims to warn (as much as possible) about the typosquatting attacks
 
-Warning: **Currenly this is a prototype. Quite far from perfect solution. I'm currenly learinng about the API of Chrome extensions. Please be aware**
+**Currently this is a prototype. Quite far from perfect solution. I'm currently learinng about the API of Chrome extensions. Please be aware**
 
-Note: 
- - The list of protected words needs to be provided in the extension configuration e.g.:
- -   - google
- -   - facebook
- -   - etc.
+Note:
 
- - The warning at the moment is shown via the color of the icon for the extension:
+The list of protected words needs to be provided in the extension configuration e.g.:
+ -  google
+ -  facebook
+ -  etc.
+
+The warning at the moment is shown via the color of the icon for the extension:
    - White color - unknown status
-   - Yellow - you visited your protected webpage (needs to be configured)
+   - Yellow - you visited your protected webpage (protected words needs to be configured)
    - Purple - you visited a webpage which domain has a word very similar to one of your protected word
-   - Red - you visited a evil webpage (homograph attack)
+   - Red - you visited a bad webpage (homograph attack)
 
 # Roadmap/Plan
 
