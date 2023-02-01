@@ -1,16 +1,23 @@
 # ChromeProtector (in development)
-An extension for Chrome that aims to protect (as much as possible) against typosquatting attacks
+An extension for Chrome that aims to warn (as much as possible) about the typosquatting attack
 
+Warning: **Currenly this is a prototype. Quite far from perfect solution. I'm currenly learinng about the API of Chrome extensions. Please be aware**
+
+Note: 
+ - The list of protected words needs to be provided in the extension configuration e.g.:
+ -   - google
+ -   - facebook
+ -   - etc.
+
+ - The warning at the moment is shown via the color of the icon for the extension:
+   - White color - unknown status
+   - Yellow - you visited your protected webpage (needs to be configured)
+   - Purple - you visited a webpage which domain has a word very similar to one of your protected word
+   - Red - you visited a evil webpage (homograph attack)
 
 # Roadmap/Plan
 
-1. Implement a simple detection of homograph phishing attack
-2. Implement the similary checks against the list of protected domains (configured):
-   - Levenshtein distance
-   - other algorithms
-   
-3. Implement a list of regexes for valid/invalid URLs
-4. Configuration data of the extension should be easy to export to compute some hash to validate configuration
-5. Consider showing more info about SSL/TLS certificates
-6. Consider saving SHA1 of certificates for logging purposes (just to show user that something changed, level of warning could be configured)
-7. Implement a user-specific list of valid/invalid domains
+1. Implement a simple detection of homograph phishing attack (**done**)
+2. Implement a simple detection of typosquatting attack using the similarity check against the list of protected words (configuration, Levenshtein distance) (**done**)
+3. Implement other and better algorithms for similarity check between words
+4. Implement better warning system than the simple icon with a color
