@@ -1,7 +1,7 @@
 # ChromeProtector (in development)
 An extension for Chrome that aims to warn (as much as possible) about the typosquatting attacks
 
-**Currently this is a prototype. Quite far from perfect solution. I'm currently learinng about the API of Chrome extensions. Please be aware**
+**Currently this is a prototype. Quite far from perfect solution. I'm currently learning about the API of Chrome extensions. Please be aware**
 
 Note:
 
