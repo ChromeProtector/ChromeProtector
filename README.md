@@ -10,7 +10,7 @@ An extension for Chrome that aims to protect (as much as possible) against typos
    - Levenshtein distance
    - other algorithms
    
-4. Implement a simple list of blocked words from domain names
+4. Implement a list of regexes for valid/invalid URLs
 5. Configuration data of the extension should be easy to export to compute some hash to validate configuration
 6. Consider showing more info about SSL/TLS certificates
 7. Consider saving SHA1 of certificates for logging purposes (just to show user that something changed, level of warning could be configured)
