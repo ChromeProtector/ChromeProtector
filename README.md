@@ -10,6 +10,8 @@ The list of protected words needs to be provided in the extension configuration 
  -  facebook
  -  etc.
 
+After changing configuration restart the browser.
+
 The warning at the moment is shown via the color of the icon for the extension:
    - White color - unknown status
    - Yellow - you visited your protected webpage (protected words needs to be configured)
