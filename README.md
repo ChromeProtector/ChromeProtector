@@ -13,9 +13,9 @@ After changing configuration restart the browser.
 
 The warning at the moment is shown via the color of the icon for the extension:
    - White color - unknown status
-   - Yellow - you visited your protected webpage (protected words needs to be configured)
+   - Yellow - you visited your protected webpage
    - Purple - you visited a webpage which domain has a word very similar to one of your protected word
-   - Red - you visited a bad webpage (homograph attack)
+   - Red - you visited a webpage that could be a homograph attack
 
 # Roadmap/Plan
 
