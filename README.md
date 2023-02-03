@@ -37,3 +37,4 @@ The warning at the moment is shown via the color of the icon for the extension:
 - https://en.wikipedia.org/wiki/Unicode
 - https://www.codeproject.com/Tips/557423/Rendering-Text-with-OpenType-Fonts-Using-GDI
 - https://github.com/googlefonts/fontdiffenator
+- https://www.cisecurity.org/insights/white-papers/ms-isac-security-primer-typosquatting
