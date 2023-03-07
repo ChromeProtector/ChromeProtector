@@ -3,6 +3,7 @@ An extension for Chrome browser that aims to warn (as much as possible) about th
 
 Internals:
  - It is a Chrome browser extension written in JavaScript
+ - It uses **typosquatting-detector** library
  - It uses the support vector machines (LIBSVM library using WebAssembly) for the typosquatting classification
  - It uses an additional simple heuristics to avoid false positives (at the moment)
 
