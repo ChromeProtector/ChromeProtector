@@ -4,12 +4,12 @@ An extension for Chrome browser that aims to warn (as much as possible) about th
 Internals:
  - It is a Chrome browser extension written in JavaScript
  - It uses the support vector machines (LIBSVM library using WebAssembly) for the typosquatting classification
- - It uses an additonal simple heuristics to avoid false positives (at the moment)
+ - It uses an additional simple heuristics to avoid false positives (at the moment)
 
 Warnings:
  -  **Currenly this is a prototype**
  -  **It's NOT ready for the daily or work setting use**
- -  **It's using WebAssembly for LIBSVM**
+ -  **It's using WebAssembly for LIBSVM** (SHA256: 44f15aa9f01961be84235725179d2aadb5bafc33ae48944548cef29616df44c8 of libsvm.wasm)
 
 **Please be aware**
 
