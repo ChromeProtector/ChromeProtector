@@ -1,0 +1,38 @@
+{
+  "name": "ChromeProtector",
+  "manifest_version": 3,
+  "version": "0.3",
+  "description": "An extension for Chrome that aims to protect (as much as possible) against typosquatting attacks",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "tabs",
+    "storage",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://*/*",
+    "http://*/*"
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "libsvm.wasm",
+        "bundle.js",
+        "LICENSE",
+        "LICENSE-libsvm",
+        "LICENSE-punyCode"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ],
+  "action": {
+    "default_icon": {
+      "32": "icons/ok.png"
+    }
+  },
+  "options_page": "options.html"
+}

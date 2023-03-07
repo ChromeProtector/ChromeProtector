@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ChromeProtector extension options</title>
+</head>
+
+<body>
+    <h2>Your list of protected domains:</h2>
+    <textarea id="protected_domains" rows="20" cols="80"></textarea>
+    
+    <br>
+    <h2>Your SVM models (one line per protected domain):</h2>
+    
+    <br>
+    <textarea id="svm_model" rows="20" cols="8000" style="white-space: nowrap; width: 800px; resize: none; overflow-x: scroll"></textarea>
+    <br>
+
+    <button id="save">Save</button>
+    <span id="status"></span>
+
+
+    <div>
+    <h2>Licenses</h2>
+    <h3>The extension license</h3>
+    <a href="LICENSE">LICENSE</a>
+    <br>
+    <h3>Used libraries licenses</h3>
+    <a href="LICENSE-libsvm">libsvm</a>
+    <a href="LICENSE-punyCode">punyCode</a>
+    </div>
+
+    <script src="options.js"></script>
+</body>
+</html>
